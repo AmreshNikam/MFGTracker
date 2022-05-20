@@ -1,0 +1,613 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="background-color:powderblue;">
+    <h1>MFG Tracker API Details</h1>
+    <details>
+        <summary>Company</summary>
+        <table cellspacing="0" border="0">
+            <colgroup span="2" width="64"></colgroup>
+            <colgroup width="137"></colgroup>
+            <colgroup width="134"></colgroup>
+            <colgroup width="218"></colgroup>
+            <colgroup width="216"></colgroup>
+            <colgroup width="192"></colgroup>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=7 height="21" align="center" valign=bottom bgcolor="#FFFF00"><b><font size=3 color="#000000">Company</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Sr. No.</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Method</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">API</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Query Parameters</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Body</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Return</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">status code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="1" sdnum="1033;"><font size=3 color="#000000">1</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Company</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">[<br>    {<br>      &quot;company_ID&quot;: null,<br>      &quot;company_Name&quot;: null,<br>      &quot;company_Address&quot;: null<br>   }<br>]</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="104" align="center" valign=middle bgcolor="#DBEEF4" sdval="2" sdnum="1033;"><font size=3 color="#000000">2</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Company</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;company_ID&quot;: null,<br>  &quot;company_Name&quot;: null,<br>  &quot;company_Address&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="104" align="center" valign=middle bgcolor="#DBEEF4" sdval="3" sdnum="1033;"><font size=3 color="#000000">3</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Post</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Company</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;company_ID&quot;: null,<br>  &quot;company_Name&quot;: null,<br>  &quot;company_Address&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="104" align="center" valign=middle bgcolor="#DBEEF4" sdval="4" sdnum="1033;"><font size=3 color="#000000">4</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Put</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Company</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;company_ID&quot;: null,<br>  &quot;company_Name&quot;: null,<br>  &quot;company_Address&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="62" align="center" valign=middle bgcolor="#DBEEF4" sdval="5" sdnum="1033;"><font size=3 color="#000000">5</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Delete</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Company</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary>Plant</summary>
+        <table cellspacing="0" border="0">
+            <colgroup span="2" width="64"></colgroup>
+            <colgroup width="137"></colgroup>
+            <colgroup width="146"></colgroup>
+            <colgroup width="218"></colgroup>
+            <colgroup width="216"></colgroup>
+            <colgroup width="192"></colgroup>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=7 height="21" align="center" valign=bottom bgcolor="#FFFF00"><b><font size=3 color="#000000">Plant</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Sr. No.</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Method</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">API</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Query Parameters</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Body</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Return</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">status code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="187" align="center" valign=middle bgcolor="#DBEEF4" sdval="1" sdnum="1033;"><font size=3 color="#000000">1</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Plant</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">[<br>   {<br>      &quot;plant_Id&quot;: null,<br>      &quot;plant_name&quot;: null,<br>      &quot;plant_location&quot;: null,<br>      &quot;plant_address&quot;: null,<br>      &quot;company_id&quot;: null<br>}<br>]</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="2" sdnum="1033;"><font size=3 color="#000000">2</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Plant/Plant</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;plant_Id&quot;: null,<br>  &quot;plant_name&quot;: null,<br>  &quot;plant_location&quot;: null,<br>  &quot;plant_address&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="3" sdnum="1033;"><font size=3 color="#000000">3</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Post</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Plant</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;plant_Id&quot;: null,<br>  &quot;plant_name&quot;: null,<br>  &quot;plant_location&quot;: null,<br>  &quot;plant_address&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="4" sdnum="1033;"><font size=3 color="#000000">4</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Put</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Plant</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;plant_Id&quot;: null,<br>  &quot;plant_name&quot;: null,<br>  &quot;plant_location&quot;: null,<br>  &quot;plant_address&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="62" align="center" valign=middle bgcolor="#DBEEF4" sdval="5" sdnum="1033;"><font size=3 color="#000000">5</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Delete</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Plant</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary>Business Partner</summary>
+        <table cellspacing="0" border="0">
+            <colgroup span="2" width="64"></colgroup>
+            <colgroup width="147"></colgroup>
+            <colgroup width="146"></colgroup>
+            <colgroup width="218"></colgroup>
+            <colgroup width="216"></colgroup>
+            <colgroup width="192"></colgroup>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=7 height="21" align="center" valign=bottom bgcolor="#FFFF00"><b><font size=3 color="#000000">Business Partner</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Sr. No.</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Method</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">API</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Query Parameters</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Body</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Return</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">status code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="250" align="center" valign=middle bgcolor="#DBEEF4" sdval="1" sdnum="1033;"><font size=3 color="#000000">1</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/BusinessPartner</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">[<br>   {<br>      &quot;bP_Short_code&quot;: null,<br>      &quot;name&quot;: null,<br>     &quot;bP_ID&quot;: null,<br>      &quot;bP_Type&quot;: null,<br>      &quot;email&quot;: null,<br>      &quot;mobile_number&quot;: null,<br>      &quot;plant_Id&quot;: null,<br>      &quot;company_id&quot;: null<br>}<br>]</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="208" align="center" valign=middle bgcolor="#DBEEF4" sdval="2" sdnum="1033;"><font size=3 color="#000000">2</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/BusinessPartner/BPCode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID, <br>BPCode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;bP_Short_code&quot;: null,<br>  &quot;name&quot;: null,<br>  &quot;bP_ID&quot;: null,<br>  &quot;bP_Type&quot;: null,<br>  &quot;email&quot;: null,<br>  &quot;mobile_number&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="208" align="center" valign=middle bgcolor="#DBEEF4" sdval="3" sdnum="1033;"><font size=3 color="#000000">3</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Post</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/BusinessPartner</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;bP_Short_code&quot;: null,<br>  &quot;name&quot;: null,<br>  &quot;bP_ID&quot;: null,<br>  &quot;bP_Type&quot;: null,<br>  &quot;email&quot;: null,<br>  &quot;mobile_number&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="208" align="center" valign=middle bgcolor="#DBEEF4" sdval="4" sdnum="1033;"><font size=3 color="#000000">4</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Put</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/BusinessPartner</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID, <br>BPCode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;bP_Short_code&quot;: null,<br>  &quot;name&quot;: null,<br>  &quot;bP_ID&quot;: null,<br>  &quot;bP_Type&quot;: null,<br>  &quot;email&quot;: null,<br>  &quot;mobile_number&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="62" align="center" valign=middle bgcolor="#DBEEF4" sdval="5" sdnum="1033;"><font size=3 color="#000000">5</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Delete</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/BusinessPartner</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID, <br>BPCode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary>Defect Code</summary>
+        <table cellspacing="0" border="0">
+            <colgroup span="2" width="64"></colgroup>
+            <colgroup width="147"></colgroup>
+            <colgroup width="146"></colgroup>
+            <colgroup width="218"></colgroup>
+            <colgroup width="216"></colgroup>
+            <colgroup width="192"></colgroup>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=7 height="21" align="center" valign=bottom bgcolor="#FFFF00"><b><font size=3 color="#000000">Defect Code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Sr. No.</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Method</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">API</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Query Parameters</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Body</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Return</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">status code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="208" align="center" valign=middle bgcolor="#DBEEF4" sdval="1" sdnum="1033;"><font size=3 color="#000000">1</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/DefeatCode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID, <br>StationID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">[<br>   {<br>     &quot;defeatbarCode&quot;: null,<br>     &quot;message&quot;: null,<br>     &quot;from_Station&quot;: null,<br>     &quot;to_Station&quot;: null,<br>     &quot;plant_Id&quot;: null,<br>     &quot;company_id&quot;: null<br>  }<br>]</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="166" align="center" valign=middle bgcolor="#DBEEF4" sdval="2" sdnum="1033;"><font size=3 color="#000000">2</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/DefeatCode/Dcode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID, <br>Dcode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;defeatbarCode&quot;: null,<br>  &quot;message&quot;: null,<br>  &quot;from_Station&quot;: null,<br>  &quot;to_Station&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="166" align="center" valign=middle bgcolor="#DBEEF4" sdval="3" sdnum="1033;"><font size=3 color="#000000">3</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Post</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/DefeatCode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;defeatbarCode&quot;: null,<br>  &quot;message&quot;: null,<br>  &quot;from_Station&quot;: null,<br>  &quot;to_Station&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="166" align="center" valign=middle bgcolor="#DBEEF4" sdval="4" sdnum="1033;"><font size=3 color="#000000">4</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Put</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/DefeatCode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID, <br>Dcode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;defeatbarCode&quot;: null,<br>  &quot;message&quot;: null,<br>  &quot;from_Station&quot;: null,<br>  &quot;to_Station&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="62" align="center" valign=middle bgcolor="#DBEEF4" sdval="5" sdnum="1033;"><font size=3 color="#000000">5</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Delete</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/DefeatCode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID, <br>Dcode</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary>Model</summary>
+        <table cellspacing="0" border="0">
+            <colgroup span="2" width="64"></colgroup>
+            <colgroup width="147"></colgroup>
+            <colgroup width="146"></colgroup>
+            <colgroup width="218"></colgroup>
+            <colgroup width="216"></colgroup>
+            <colgroup width="192"></colgroup>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=7 height="21" align="center" valign=bottom bgcolor="#FFFF00"><b><font size=3 color="#000000">Model</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Sr. No.</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Method</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">API</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Query Parameters</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Body</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Return</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">status code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="187" align="center" valign=middle bgcolor="#DBEEF4" sdval="1" sdnum="1033;"><font size=3 color="#000000">1</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Model</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">[<br>   {<br>      &quot;part_id&quot;: null,<br>      &quot;part_name&quot;: null,<br>      &quot;bP_Short_code&quot;: null,<br>      &quot;plant_Id&quot;: null,<br>      &quot;company_id&quot;: null<br>  }<br>]</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="2" sdnum="1033;"><font size=3 color="#000000">2</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Model</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">ID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;part_id&quot;: null,<br>  &quot;part_name&quot;: null,<br>  &quot;bP_Short_code&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="3" sdnum="1033;"><font size=3 color="#000000">3</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Post</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Model</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;part_id&quot;: null,<br>  &quot;part_name&quot;: null,<br>  &quot;bP_Short_code&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="4" sdnum="1033;"><font size=3 color="#000000">4</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Put</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Model</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">ID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;part_id&quot;: null,<br>  &quot;part_name&quot;: null,<br>  &quot;bP_Short_code&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="62" align="center" valign=middle bgcolor="#DBEEF4" sdval="5" sdnum="1033;"><font size=3 color="#000000">5</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Delete</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Model</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">ID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary>Sub Model</summary>
+        <table cellspacing="0" border="0">
+            <colgroup span="2" width="64"></colgroup>
+            <colgroup width="147"></colgroup>
+            <colgroup width="146"></colgroup>
+            <colgroup width="268"></colgroup>
+            <colgroup width="286"></colgroup>
+            <colgroup width="192"></colgroup>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=7 height="21" align="center" valign=bottom bgcolor="#FFFF00"><b><font size=3 color="#000000">Sub Model</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Sr. No.</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Method</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">API</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Query Parameters</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Body</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Return</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">status code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="229" align="center" valign=middle bgcolor="#DBEEF4" sdval="1" sdnum="1033;"><font size=3 color="#000000">1</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/SubModel</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">PartID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">[<br>   {<br>      &quot;subpart_id&quot;: null,<br>      &quot;subpart_Name&quot;: null,<br>      &quot;part_id&quot;: null,<br>      &quot;tag_time&quot;: null,<br>      &quot;customer_material_number&quot;: null,<br>      &quot;assy_type&quot;: null,<br>      &quot;color&quot;: null<br>   }<br>]</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="229" align="center" valign=middle bgcolor="#DBEEF4" sdval="2" sdnum="1033;"><font size=3 color="#000000">2</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Post</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/SubModel</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;subpart_id&quot;: null,<br>  &quot;subpart_Name&quot;: null,<br>  &quot;part_id&quot;: null,<br>  &quot;tag_time&quot;: null,<br>  &quot;customer_material_number&quot;: null,<br>  &quot;assy_type&quot;: null,<br>  &quot;color&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="187" align="center" valign=middle bgcolor="#DBEEF4" sdval="3" sdnum="1033;"><font size=3 color="#000000">3</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Put</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/SubModel</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">SID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;subpart_id&quot;: null,<br>  &quot;subpart_Name&quot;: null,<br>  &quot;part_id&quot;: null,<br>  &quot;tag_time&quot;: null,<br>  &quot;customer_material_number&quot;: null,<br>  &quot;assy_type&quot;: null,<br>  &quot;color&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="62" align="center" valign=middle bgcolor="#DBEEF4" sdval="4" sdnum="1033;"><font size=3 color="#000000">4</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Delete</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/SubModel</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">SID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary>Shift</summary>
+        <table cellspacing="0" border="0">
+            <colgroup span="2" width="64"></colgroup>
+            <colgroup width="147"></colgroup>
+            <colgroup width="146"></colgroup>
+            <colgroup width="218"></colgroup>
+            <colgroup width="216"></colgroup>
+            <colgroup width="192"></colgroup>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=7 height="21" align="center" valign=bottom bgcolor="#FFFF00"><b><font size=3 color="#000000">Shift</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Sr. No.</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Method</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">API</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Query Parameters</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Body</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Return</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">status code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="229" align="center" valign=middle bgcolor="#DBEEF4" sdval="1" sdnum="1033;"><font size=3 color="#000000">1</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Shift</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">[<br>   {<br>      &quot;shift_id&quot;: null,<br>      &quot;shift_name&quot;: null,<br>      &quot;start_time&quot;: null,<br>      &quot;end_time&quot;: null,<br>      &quot;day&quot;: null,<br>      &quot;plant_Id&quot;: null,<br>      &quot;company_id&quot;: null<br>   }<br>]</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="187" align="center" valign=middle bgcolor="#DBEEF4" sdval="2" sdnum="1033;"><font size=3 color="#000000">2</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Shift</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">ID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;shift_id&quot;: null,<br>  &quot;shift_name&quot;: null,<br>  &quot;start_time&quot;: null,<br>  &quot;end_time&quot;: null,<br>  &quot;day&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="187" align="center" valign=middle bgcolor="#DBEEF4" sdval="3" sdnum="1033;"><font size=3 color="#000000">3</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Post</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Shift</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;shift_id&quot;: null,<br>  &quot;shift_name&quot;: null,<br>  &quot;start_time&quot;: null,<br>  &quot;end_time&quot;: null,<br>  &quot;day&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="4" sdnum="1033;"><font size=3 color="#000000">4</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Put</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Shift</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">ID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;part_id&quot;: null,<br>  &quot;part_name&quot;: null,<br>  &quot;bP_Short_code&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="62" align="center" valign=middle bgcolor="#DBEEF4" sdval="5" sdnum="1033;"><font size=3 color="#000000">5</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Delete</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Shift</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">ID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary>User Credentials</summary>
+        <table cellspacing="0" border="0">
+            <colgroup span="2" width="64"></colgroup>
+            <colgroup width="147"></colgroup>
+            <colgroup width="146"></colgroup>
+            <colgroup width="218"></colgroup>
+            <colgroup width="216"></colgroup>
+            <colgroup width="192"></colgroup>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=7 height="21" align="center" valign=bottom bgcolor="#FFFF00"><b><font size=3 color="#000000">User Credentials</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Sr. No.</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Method</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">API</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Query Parameters</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Body</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Return</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">status code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="187" align="center" valign=middle bgcolor="#DBEEF4" sdval="1" sdnum="1033;"><font size=3 color="#000000">1</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/UserCredentials</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">[<br>  {<br>      &quot;user_name&quot;: null,<br>      &quot;password&quot;: null,<br>      &quot;role&quot;: null,<br>      &quot;active_Inactive&quot;: null,<br>      &quot;bP_ID&quot;: null<br>  }<br>]</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="2" sdnum="1033;"><font size=3 color="#000000">2</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/UserCredentials/Bpid</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">BPID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;user_name&quot;: null,<br>  &quot;password&quot;: null,<br>  &quot;role&quot;: null,<br>  &quot;active_Inactive&quot;: null,<br>  &quot;bP_ID&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="3" sdnum="1033;"><font size=3 color="#000000">3</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Post</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/UserCredentials</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;user_name&quot;: null,<br>  &quot;password&quot;: null,<br>  &quot;role&quot;: null,<br>  &quot;active_Inactive&quot;: null,<br>  &quot;bP_ID&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="146" align="center" valign=middle bgcolor="#DBEEF4" sdval="4" sdnum="1033;"><font size=3 color="#000000">4</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Put</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/UserCredentials</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">BPID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;user_name&quot;: null,<br>  &quot;password&quot;: null,<br>  &quot;role&quot;: null,<br>  &quot;active_Inactive&quot;: null,<br>  &quot;bP_ID&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="62" align="center" valign=middle bgcolor="#DBEEF4" sdval="5" sdnum="1033;"><font size=3 color="#000000">5</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Delete</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/UserCredentials</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">BPID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary>Workstation</summary>
+        <table cellspacing="0" border="0">
+            <colgroup span="2" width="64"></colgroup>
+            <colgroup width="147"></colgroup>
+            <colgroup width="146"></colgroup>
+            <colgroup width="218"></colgroup>
+            <colgroup width="216"></colgroup>
+            <colgroup width="192"></colgroup>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=7 height="21" align="center" valign=bottom bgcolor="#FFFF00"><b><font size=3 color="#000000">Workstation</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="21" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Sr. No.</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Method</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">API</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Query Parameters</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Body</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">Return</font></b></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#31859C"><b><font size=3 color="#FFFFFF">status code</font></b></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="229" align="center" valign=middle bgcolor="#DBEEF4" sdval="1" sdnum="1033;"><font size=3 color="#000000">1</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Workstation</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">CompanyID, PlantID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">[<br>  {<br>      &quot;workstation_Id&quot;: null,<br>      &quot;workstation_name&quot;: null,<br>      &quot;description&quot;: null,<br>      &quot;location&quot;: null,<br>      &quot;plant_Id&quot;: null,<br>      &quot;company_Id&quot;: null<br> }<br>]</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="166" align="center" valign=middle bgcolor="#DBEEF4" sdval="2" sdnum="1033;"><font size=3 color="#000000">2</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Get</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Workstation</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">WID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;workstation_Id&quot;: null,<br>  &quot;workstation_name&quot;: null,<br>  &quot;description&quot;: null,<br>  &quot;location&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_Id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="166" align="center" valign=middle bgcolor="#DBEEF4" sdval="3" sdnum="1033;"><font size=3 color="#000000">3</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Post</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Workstation</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;workstation_Id&quot;: null,<br>  &quot;workstation_name&quot;: null,<br>  &quot;description&quot;: null,<br>  &quot;location&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_Id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="166" align="center" valign=middle bgcolor="#DBEEF4" sdval="4" sdnum="1033;"><font size=3 color="#000000">4</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Put</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Workstation</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">WID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">{<br>  &quot;workstation_Id&quot;: null,<br>  &quot;workstation_name&quot;: null,<br>  &quot;description&quot;: null,<br>  &quot;location&quot;: null,<br>  &quot;plant_Id&quot;: null,<br>  &quot;company_Id&quot;: null<br>}</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="62" align="center" valign=middle bgcolor="#DBEEF4" sdval="5" sdnum="1033;"><font size=3 color="#000000">5</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">Delete</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">api/Workstation</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">WID</font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom bgcolor="#DBEEF4"><font size=3 color="#000000"><br></font></td>
+                <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#DBEEF4"><font size=3 color="#000000">OK <br>on error Internal server error and error message</font></td>
+            </tr>
+        </table>
+    </details>
+</body>
+</html>
